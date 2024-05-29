@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c00f0f;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #653131;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#stopwatch {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style: none;
+   padding: 0;
+}
